@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Marcella Brum</title>
+    <style>
+        /* Fonte */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            height: 100%;
+            margin:20px  auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+
+        }
+
+        h1, h2 {
+            margin: 0 0 10px;
+            color: #222;
+        }
+
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .sub {
+            font-size: 18px;
+            font-weight: 350;
+        }
+
+        .local {
+            font-size: 16px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 20px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        p, ul {
+            margin: 5px 0 10px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        span {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 20px;
+        }
+
+        .header div {
+            margin-bottom: 10px;
+        }
+
+        .areaContact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            text-align: right;
+            margin-top: 5%;
+        }
+
+        .contact, .contact2 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact p, .contact2 p {
+            margin: 3px 0;
+        }
+
+        .pp {
+            text-align: justify;
+        }
+
+        .pp2 {
+            height: auto;
+            text-align: justify;
+            clear:bottom;
+/*            margin-top:50px;*/
+/*            text-align: right;*/
+        }
+        .sub{
+            font-size: 20px;
+        }
+/*         .linkOnline{
+            list-style: none;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 2px;
+        }    */
+        /* Responsividade */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                margin: 20px ;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+
+            p, ul {
+                font-size: 12px;
+            }
+
+            .areaContact {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .contact, .contact2 {
+                width: 100%;
+            text-align: center;
+
+            }
+            .pp2{
+            text-align: center;
+
+            }
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .header .contact {
+                text-align: justify;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>Marcella Brum</h1>
+                <p class="sub">Jovem Aprendiz | Assistente Administrativo</p>
+                <p class="local">Rio de Janeiro, Jacarepaguá</p>
+            </div>
+            <div class="areaContact">
+                <div class="contact">
+                    <p class="pp">Email: marcellabrum29@gmail.com</p>
+                    <p class="pp">Telefone: (21) 983386292</p>
+                </div>
+                <div class="contact2">
+                   <!-- <p class="pp pp2"><a href="https://linkedin.com/in/gabrielespinha" target="_blank">LinkedIn</a></p>
+                    <p class="pp pp2"><a href="https://github.com/Spnh" target="_blank">GitHub</a></p> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Objetivo Profissional</h2>
+            <p>
+                Aproveitar a oportunidade de jovem aprendiz para adquirir experiência prática, potencializar minhas competências técnicas e gerenciais, e contribuir com soluções criativas e eficientes para os objetivos da empresa.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Experiência Profissional</h2>
+            <p><span>Jovem aprendiz</span> — Mundivox | Rio de Janeiro, Brasil <br><em>Outubro de 2024 – Atual </em></p>
+            <ul>
+                <li>Controle de agenda</li>
+                <!-- <li>Participação na padronização do serviço e produção, com treinamentos regulares para a equipe.</li>
+            --></ul>
+
+            <p><span>Jovem aprendiz</span> — Grancoffe | Rio de Janeiro, Brasil<br><em>Outubro de 2023 – Outubro de 2024 (1 ano)</em></p>
+            <ul>
+                <li>Controle de documentação</li>
+                <li>Confrencia de estoque</li>
+                <li>Atendimento ao cliente final</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Formação Acadêmica</h2>
+            <p><strong>Bacharelado em Adiministração</strong> — Universidade de Estácio de Sá | Rio de Janeiro, RJ<br> Cursando (Previsão de conclusão: 2028)<br>
+        </div>
+
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li><strong>Técnicas:</strong> Pacote Office avançado; SIstemas de PVD(ponto de venda) </li>
+                <li><strong>SoftSkills:</strong> Planejamento estratégico e organização de cronogramas de equipe. Gerenciamento de recursos e alocação de tarefas em projetos de médio e grande porte. Capacidade de se ajustar a novas situações e mudanças rápidas.</li>
+<!--                 <li class="linkOnline"><a href="https://spnh.github.io/Gabriel-Espinha-Curriculo/GabrielEspinhaCurriculo.html">Acessar Online</li> -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
